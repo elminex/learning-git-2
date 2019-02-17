@@ -6,7 +6,7 @@ body {
 
 .header {
   background: #002367 url("https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center no-repeat;
-  text-align: right;
+  text-align: left;
   color: #fff;
   text-shadow: 2px 2px 3px #000;
   padding: 100px;
