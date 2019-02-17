@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1A5081;
+  font-family: 'Lato', sans-serif; }
+
+.header {
+  background: #002367 url("https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center no-repeat;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000;
+  padding: 100px;
+  font-size: 3rem; }
+
+.song {
+  width: 1200px;
+  margin: 30px auto;
+  background-color: #f4f4f4;
+  padding: 30px 50px;
+  text-align: center; }
+  .song__title {
+    column-span: all;
+    margin-bottom: 100px;
+    font-size: 2rem; }
+  .song__text {
+    margin-bottom: 30px;
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 50px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .song__text:nth-of-type(2) {
+      margin-top: 40px; }
+  .song__link {
+    text-decoration: none;
+    color: #226fb5;
+    font-size: 2rem;
+    transition: .5s;
+    border: 3px solid #226fb5;
+    padding: 10px; }
+    .song__link:hover {
+      color: #1A5081;
+      text-decoration: underline; }
+
+.footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #002367;
+  color: white; }
+
+/*# sourceMappingURL=style.prefixed.css.map */
